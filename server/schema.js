@@ -4,7 +4,7 @@ export const typeDefs = `#graphql
         title:      String!
         platform:   [String!]!      # "[]" denotes an array of the type
     }
-    type Review {
+    type Reviews {
         id:         ID!
         rating:     Int!
         content:    String!
@@ -15,7 +15,7 @@ export const typeDefs = `#graphql
         verified:   Boolean!
     }
     type Query {                    # "Query" is a special type for queries. It is required.
-        review:     [Review]
+        reviews:     [Reviews]
         games:      [Game]
         authors:    [Author]
     }
