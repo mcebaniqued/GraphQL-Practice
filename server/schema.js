@@ -15,8 +15,11 @@ export const typeDefs = `#graphql
         verified:   Boolean!
     }
     type Query {                    # "Query" is a special type for queries. It is required.
-        reviews:     [Reviews]
-        games:      [Game]
-        authors:    [Author]
+        reviews:            [Reviews]
+        review(id: ID!):    Reviews
+        games:              [Game]
+        game(id: ID!):      Game
+        authors:            [Author]
+        author(id: ID!):    Author
     }
 `
