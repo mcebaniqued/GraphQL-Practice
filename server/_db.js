@@ -17,18 +17,18 @@ let authors = [
 ]
 
 let reviews = [
-    { id: '1', rating: 5, content: 'This game is awesome!', gameId: 1, authorId: 1 },
-    { id: '2', rating: 4, content: 'This game is pretty good!', gameId: 2, authorId: 2 },
-    { id: '3', rating: 3, content: 'This game is okay!', gameId: 3, authorId: 3 },
-    { id: '4', rating: 2, content: 'This game is not good!', gameId: 4, authorId: 4 },
-    { id: '5', rating: 1, content: 'This game is terrible!', gameId: 5, authorId: 1 },
-    { id: '6', rating: 5, content: 'This game is awesome!', gameId: 6, authorId: 2 },
-    { id: '7', rating: 4, content: 'This game is pretty good!', gameId: 7, authorId: 3 },
-    { id: '8', rating: 3, content: 'This game is okay!', gameId: 8, authorId: 4 },
-    { id: '9', rating: 2, content: 'This game is not good!', gameId: 1, authorId: 1 },
-    { id: '10', rating: 1, content: 'This game is terrible!', gameId: 2, authorId: 2 },
-    { id: '11', rating: 5, content: 'This game is awesome!', gameId: 3, authorId: 3 },
-    { id: '12', rating: 4, content: 'This game is pretty good!', gameId: 4, authorId: 4 },
+    { id: '1', rating: 5, content: 'This game is awesome!', gameId: '1', authorId: '1' },
+    { id: '2', rating: 4, content: 'This game is pretty good!', gameId: '2', authorId: '2' },
+    { id: '3', rating: 3, content: 'This game is okay!', gameId: '3', authorId: '3' },
+    { id: '4', rating: 2, content: 'This game is not good!', gameId: '4', authorId: '4' },
+    { id: '5', rating: 1, content: 'This game is terrible!', gameId: '5', authorId: '1' },
+    { id: '6', rating: 5, content: 'This game is awesome!', gameId: '6', authorId: '2' },
+    { id: '7', rating: 4, content: 'This game is pretty good!', gameId: '7', authorId: '3' },
+    { id: '8', rating: 3, content: 'This game is okay!', gameId: '8', authorId: '4' },
+    { id: '9', rating: 2, content: 'This game is not good!', gameId: '1', authorId: '1' },
+    { id: '10', rating: 1, content: 'This game is terrible!', gameId: '2', authorId: '2' },
+    { id: '11', rating: 5, content: 'This game is awesome!', gameId: '3', authorId: '3' },
+    { id: '12', rating: 4, content: 'This game is pretty good!', gameId: '4', authorId: '4' },
 ]
 
 export default  { games, authors, reviews }
